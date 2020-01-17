@@ -38,3 +38,14 @@ buildを一度すれば、複数PORTで立ち上げることができる
 [Deployment](https://nextjs.org/docs/deployment)
 
 
+## Export into a Static HTML App
+https://nextjs.org/learn/excel/static-html-export
+
+> If your app needs to generate dynamic pages at the runtime, you can't deploy it as a static app.
+
+
+`serve`: simple static web server --> generateしたディレクトリに移動して、 `serve -p 8080` とすると確認できる
+
+`next.config.js` の `exportPathMap` を指定するときに、fetch等を行ってpathを追加することができる
+
+`next export` コマンドでは buildしない
