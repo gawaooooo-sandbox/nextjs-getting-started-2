@@ -14,3 +14,9 @@ https://github.com/zeit/next-learn-demo
 - `pages/api` -> API Route
 - [swr](https://swr.now.sh/)
     - React Hooks library for remote data fetching
+
+- Middlewares
+    - [API Middlewares](https://nextjs.org/docs/api-routes/api-middlewares)
+
+
+backendとUIを同じappで作れる
