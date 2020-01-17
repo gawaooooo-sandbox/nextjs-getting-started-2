@@ -12,3 +12,5 @@ https://github.com/zeit/next-learn-demo
 ### API Routes
 - 同じNext.jsアプリでAPIを作成して使用する方法
 - `pages/api` -> API Route
+- [swr](https://swr.now.sh/)
+    - React Hooks library for remote data fetching
